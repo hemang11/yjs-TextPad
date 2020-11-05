@@ -10,8 +10,8 @@ Quill.register('modules/cursors', QuillCursors)
 
 window.addEventListener('load', () => {
   const ydoc = new Y.Doc()
-  const provider = new WebsocketProvider('wss://shielded-sierra-61478.herokuapp.com', 'room', ydoc)
-  const type = ydoc.getText('room')
+  const provider = new WebsocketProvider('wss://shielded-sierra-61478.herokuapp.com', 'Room', ydoc)
+  const type = ydoc.getText('Room')
   const editorContainer = document.createElement('div')
   editorContainer.setAttribute('id', 'editor')
   document.body.insertBefore(editorContainer, null)

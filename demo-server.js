@@ -1,7 +1,3 @@
-
-/**
- * @type {any}
- */
 const WebSocket = require('ws')
 const http = require('http')
 const StaticServer = require('node-static').Server
